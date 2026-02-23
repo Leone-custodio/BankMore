@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\BankMore.Domain\BankMore.Domain.csproj" />
+    <ProjectReference Include="..\BankMore.Application\BankMore.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.1.0" />
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="KafkaFlow" Version="3.0.10" />
+    <PackageReference Include="KafkaFlow.Microsoft.DependencyInjection" Version="3.0.10" />
+    <PackageReference Include="KafkaFlow.Serializer.Json" Version="1.5.8" />
+    <PackageReference Include="KafkaFlow.Serializer.JsonCore" Version="3.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="10.0.3" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.26.100" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
