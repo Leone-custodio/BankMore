@@ -60,5 +60,4 @@ Siga esta ordem para testar todas as funcionalidades:
 *   **Swagger/OpenAPI** (Documentação interativa)
 *   **KafkaFlow** (Mensageria para tarifação assíncrona)
 
----
-*Desenvolvido para o Teste Técnico BankMore.*
+
