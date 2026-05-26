@@ -34,6 +34,7 @@ namespace BankMore.Infrastructure.Repositorios
     }
     public class AgenciaRepositorio : BaseRepositorio, IAgenciaRepositorio
     {
+        //teste
         public AgenciaRepositorio(string connectionString) : base(connectionString) { }
         public async Task Inserir(Agencia agencia)
         {
